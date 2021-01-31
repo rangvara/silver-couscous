@@ -1,0 +1,34 @@
+{
+    "TC_1.1": {
+        "userDetails": {
+            "username": "wrong_user",
+            "password": "secret_sauce1",
+            "error": "Epic sadface: Username and password do not match any user in this service"
+        }
+    },
+    "TC_1.2": {
+        "userDetails": {
+            "username": "standard_user",
+            "password": "wrong",
+            "error": "Epic sadface: Username and password do not match any user in this service"
+        }
+    },
+    "userDetails": {
+        "username": "standard_user",
+        "password": "secret_sauce"
+    },
+    "TC_1.5": {
+        "userDetails": {
+            "username": "standard_user",
+            "password": "secret_sauce",
+            "firstName": "Abhijeet",
+            "lastName": "Abhijeet",
+            "zipCode": "3008",
+            "shippingInfo": "FREE PONY EXPRESS DELIVERY!",
+            "confirmationText": {
+                "header": "THANK YOU FOR YOUR ORDER",
+                "text": "Your order has been dispatched, and will arrive just as fast as the pony can get there!"
+            }
+        }
+    }
+}

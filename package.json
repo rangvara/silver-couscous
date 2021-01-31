@@ -1,0 +1,36 @@
+{
+  "name": "webdriverio-assignment",
+  "version": "1.0.0",
+  "description": "creating wdio scripts for assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/wdio wdio.config.js ",
+    "allureGenerate": "allure generate ./allure-results/ --clean"
+  },
+  "author": "Abhijeet",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/register": "^7.12.10",
+    "@wdio/allure-reporter": "^6.11.0",
+    "@wdio/dot-reporter": "^6.11.0",
+    "@wdio/local-runner": "^6.12.1",
+    "@wdio/mocha-framework": "^6.11.0",
+    "@wdio/spec-reporter": "^6.11.0",
+    "@wdio/sync": "^6.11.0",
+    "allure-commandline": "^2.13.8",
+    "chai": "^4.2.0",
+    "chromedriver": "^88.0.0",
+    "install": "^0.13.0",
+    "local-runner": "^0.1.1-alpha",
+    "npm": "^6.14.11",
+    "wdio-chromedriver-service": "^6.0.4",
+    "wdio-mochawesome-reporter": "^4.0.0",
+    "webdriverio": "^6.12.1"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.12.1",
+    "chai-webdriverio": "^1.0.0",
+    "expect-webdriverio": "^1.4.1"
+  }
+}
